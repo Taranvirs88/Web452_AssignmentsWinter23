@@ -78,10 +78,26 @@ Add a Data/RulerContext.cs
 Updated
  Startup.cs file and set to default connection
 
+1015EST
+****************************
 Apply Migrations in powershell
+
+1020EST
+****************************
+
+I got error when i apply migration in powershell but i resolved error.
 
 Add-Migration InitialCreate -Context RulersContext
 Update-Database -Context RulersContext
+
+1150EST
+******************************
+
+Add SeedData.cs Class in Models folder
+Add the seed initializer
+
+Write 10 entries in the seed class realted rulers.
+
 
 
 
