@@ -85,7 +85,12 @@ Apply Migrations in powershell
 1020EST
 ****************************
 
-I got error when i apply migration in powershell but i resolved error.
+I got error in migration i used only
+Add-Migration IntialCreate
+And
+Update-Database 
+
+when i apply migration in powershell but i resolved error.
 
 Add-Migration InitialCreate -Context RulersContext
 Update-Database -Context RulersContext
@@ -97,6 +102,44 @@ Add SeedData.cs Class in Models folder
 Add the seed initializer
 
 Write 10 entries in the seed class realted rulers.
+
+
+*******************************
+Continue Working on our product MVC Rulers App.
+2023-02-17
+0710EST
+**********************
+
+Update the navigation bar and add link to our database and About us Page in the navigation bar.
+
+
+0755EST
+**********************
+Put images into the imgage folder and start work on Index.cshtml page.
+
+
+0824EST
+***********************
+Add Link to Rulers Database in the _Layout.cshtml Page.
+
+0830EST
+***********************
+
+Add link in the navigation bar for About Page.
+
+0843EST
+*********************
+ I was panic about css part how can set css in site.css 
+ When i applied css in site.css then it was not working 
+
+ then i remember class instutions which i asked from my professor
+ then i used bootsrap classes for colour dividing coloumns 
+ and give text color for better lool for website.
+
+ 1245EST
+ ************************
+ I added content on index.cshtml and About Us and 
+ added photos about the rulers company.
 
 
 
