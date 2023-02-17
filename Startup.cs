@@ -33,7 +33,12 @@ namespace Rulers
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
+            services.AddDbContext<RulerContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddRazorPages();
+
+            services.AddDbContext<RulersContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("RulersContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
