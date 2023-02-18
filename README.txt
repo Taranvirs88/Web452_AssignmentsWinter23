@@ -150,6 +150,17 @@ font-family:cursive;
 Started again and and working on Aboutus.html
 
 
+2026EST
+**************************
+Yesterday i did not able to activate my website on azure.I was panic 
+but with the help of Andrew Steele Profesor i solved my azure account problem.
+Now i am able to  publish my online website.
+
+Link og my Azure online websites.
+
+https://taranvirrulers.azurewebsites.net/
+
+
 
 
 
