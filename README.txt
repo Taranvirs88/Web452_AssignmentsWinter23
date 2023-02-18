@@ -142,6 +142,12 @@ Add link in the navigation bar for About Page.
  added photos about the rulers company.
 
 
+0214EST
+*************************
+Edit the About page and changes its font family.
+font-family:cursive;
+
+
 
 
 
