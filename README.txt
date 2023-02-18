@@ -4,6 +4,7 @@ Product Name:Rulers
 0610EST
 
 *****************************
+I Used Eastern Time in Readme file for my Assignment 
 product was assigned for Assignment on 2 Feb,2023
 Then i Researched realted  properties of my product.These are:
 1.RulerTypes
